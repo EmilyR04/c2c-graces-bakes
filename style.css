@@ -1,0 +1,167 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+}
+
+body > main article {
+    width: 80%;
+    margin: auto;
+    /* centers text */
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    padding: 5px;
+}
+
+h3 {
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-align: center;
+    padding: 5px;
+}
+
+p {
+    padding: 10px;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+#logo {
+    margin: 0px;
+    padding: 8px;
+    font-family: "SUSE", sans-serif;
+    width: 200px;
+}
+
+#logo-image {
+    width: 100px;
+    height: 100px;
+}
+
+.text-box ul {
+    margin: 2px;
+    
+}
+
+#main-header {
+    background-color: #7d1b92;
+    color: rgb(255, 255, 255);
+    display: flex;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+body > footer {
+    background-color: #7d1b92;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+
+#nav-ul {
+    list-style: none; 
+    /* removes bullet points from list */
+    text-decoration: none;
+    font-size: 1.5vw;
+    /* viewport width --> font is 1.5% of page on each device */
+    display: flex;
+}
+
+.nav-ul-li {
+    padding: 8px;
+    margin: 12px;
+}
+
+.navbutton {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid #f1adff;
+    border-radius: 10%;
+}
+
+#A-intro-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 5px 5px 5px;
+}
+
+#B-bullets-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-box {
+    border: 1px solid #f1adff;
+}
+
+img {
+    width: 30%;
+    height: 270px;
+}
+
+.image-collage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+.image-collage img {
+    width: 45%;
+    height: 132px;
+    margin: 0 3px 3px 0;
+}
+
+#happy-birthday-cupcakes {
+    width: 35%;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li {
+    margin-left: 12px;
+}
+
+#footer-ul > div > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+.text-box {
+    margin: 10px;
+}
+
+.text-box li {
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.contact-section p {
+    padding: 0px;
+    padding-left: 10px;
+    color: #f1adff;
+}
+
+.bullet-point-A {
+    color: #7d1b92;
+}
+
+.bullet-point-B {
+    color: #f1adff;
+}
